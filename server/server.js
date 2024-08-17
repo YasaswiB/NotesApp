@@ -8,7 +8,10 @@ const app = express();
 const PORT = 4000;
  
 // Middleware
-app.use(cors());
+const corsOptions = {
+    origin: "http://localhost:3000" // frontend URI (ReactJS)
+}
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
  
 const dbUrl = 'mongodb+srv://yasaswib14:N3zacMP7vQZ9t8rt@summarize.ikszcca.mongodb.net/?retryWrites=true&w=majority&appName=Summarize';
