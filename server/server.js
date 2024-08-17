@@ -12,13 +12,6 @@ app.use(cors());
 app.use(bodyParser.json());
  
 const dbUrl = 'mongodb+srv://yasaswib14:N3zacMP7vQZ9t8rt@summarize.ikszcca.mongodb.net/?retryWrites=true&w=majority&appName=Summarize';
-const client = new MongoClient(dbUrl,{
-    serverApi: {
-      version: ServerApiVersion.v1,
-      strict: true,
-      deprecationErrors: true,
-    }
-  });
 // Connect to MongoDB Atlas
 mongoose.connect(dbUrl);
  
