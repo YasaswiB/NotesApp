@@ -1,0 +1,108 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1e293b; /* Darker background for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f1f5f9; /* Lighter background for better readability */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  color: #2563eb; /* Darker color for better contrast */
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #1f2937; /* Consistent color with h1 */
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.button1,
+.button2 {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #3b82f6; /* Same as button for consistency */
+  color: #fff;
+}
+
+.button1 {
+  width: 100%;
+}
+
+.button2 {
+  width: 49%;
+}
+
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+  height: 100px;
+  width: 100%;
+}
+
+button {
+  background-color: #3b82f6; /* Primary button color */
+  color: #fff;
+  cursor: pointer;
+  border: none; /* Remove border for a cleaner look */
+}
+
+button:hover {
+  background-color: #2563eb; /* Slightly darker blue for hover effect */
+  color: #fff; /* Keep text color white for contrast */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #e2e8f0; /* Lighter grey for list items */
+  border-radius: 5px;
+}
+
+li strong {
+  font-size: 18px;
+  color: #1f2937; /* Consistent color for strong text */
+}
+
+li p {
+  font-size: 16px;
+  color: #4b5563; /* Slightly lighter color for paragraph text */
+}
