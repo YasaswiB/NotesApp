@@ -9,7 +9,7 @@ const PORT = 4000;
  
 // Middleware
 const corsOptions = {
-    origin: "http://localhost:3000" // frontend URI (ReactJS)
+    origin: "https://notesapp-frontend-ky74.onrender.com" // frontend URI (ReactJS)
 }
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
